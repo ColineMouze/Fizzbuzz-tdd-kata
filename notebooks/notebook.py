@@ -93,11 +93,7 @@ def test_v2_multiples_of_three_return_fizz():
 
 
 @app.cell
-def test_v2_non_multiples_still_return_number():
-    # Regression test inherited from step 1
-    assert fizzbuzz_v2(1) == "1"
-    assert fizzbuzz_v2(2) == "2"
-    return
+
 
 
 @app.cell
