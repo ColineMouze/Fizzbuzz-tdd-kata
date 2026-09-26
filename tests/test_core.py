@@ -2,6 +2,7 @@ import pytest
 
 from fizzbuzz_kata.core import fizzbuzz
 
+
 @pytest.mark.parametrize(
     ("n", "expected"),
     [
